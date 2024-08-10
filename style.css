@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "CenturyGothicBold";
+  src: url("./assets/fonts/Century-Gothic/centurygothic_bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "CenturyGothicRegular";
+  src: url("./assets/fonts/Century-Gothic/centurygothic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "ABeeZeeRegular";
+  src: url("./assets/fonts/Century-Gothic/centurygothic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "TTFirsBlack";
+  src: url("./assets/fonts/TTFirs/TTFirs-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "TTFirsExtraBold";
+  src: url("./assets/fonts/TTFirs/TTFirs-ExtraBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "TTFirsMedium";
+  src: url("./assets/fonts/TTFirs/TTFirs-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  background-image: url(assets/img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  font-family: 'CenturyGothicRegular', Courier, monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  box-sizing: border-box;
+}
+
+header {
+  color: white;
+  font-family: 'CenturyGothicBold', Courier, monospace;
+}
+
+.menu_item {
+  display: inline-block;
+  list-style: none;
+}
+
+.menu_link {
+  color: white;
+}
+
+.header-top .header-top_phone {
+  color: white;
+}
+
+.post_header {
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-family: 'TTFirsBlack', Courier, monospace;
+}
+
+.post_autor-name {
+  font-family: 'TTFirsExtraBold', Courier, monospace;
+}
+
+.post_autor-description {
+  font-family: 'TTFirsMedium', Courier, monospace;
+}
+
+.post_dates {
+  display: flex;
+  width: 480px;
+  justify-content: space-between;
+}
+
+.post_info {
+  display: flex;
+  width: 480px;
+  justify-content: space-between;
+}
+
+.post_tags {
+  display: flex;
+  gap: 10px;
+}
+
+.post_tag {
+  border-radius: 40px;
+  padding: 6px 20px;
+  background-color: rgb(252, 213, 74);
+  color: black;
+}
