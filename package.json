@@ -1,0 +1,19 @@
+{
+  "name": "testwp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladislava96/testwp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladislava96/testwp/issues"
+  },
+  "homepage": "https://github.com/vladislava96/testwp#readme"
+}
